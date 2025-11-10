@@ -28,12 +28,31 @@
             color: #666;
             font-size: 1.2em;
         }
+        /* --- הוספתי את העיצוב הזה לכפתור --- */
+        .contact-button {
+            background-color: #007bff; /* צבע רקע כחול */
+            color: white; /* צבע טקסט לבן */
+            border: none; /* ללא מסגרת */
+            padding: 12px 24px; /* ריווח פנימי */
+            font-size: 1em; /* גודל גופן */
+            border-radius: 5px; /* פינות מעוגלות */
+            cursor: pointer; /* משנה את סמן העכבר ליד */
+            margin-top: 20px; /* מרווח מעל הכפתור */
+            transition: background-color 0.3s; /* אנימציה עדינה במעבר עכבר */
+        }
+        .contact-button:hover {
+            background-color: #0056b3; /* צבע כהה יותר במעבר עכבר */
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>וואו, הצלחתי!</h1>
         <p>זהו האתר הראשון שבניתי בעזרת Manus.</p>
+        
+        <!-- --- הוספתי את הכפתור כאן --- -->
+        <button class="contact-button">צרו קשר</button>
+
     </div>
 </body>
 </html>
